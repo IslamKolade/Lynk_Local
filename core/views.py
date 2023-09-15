@@ -16,12 +16,16 @@ def contact_form_submission(request):
         email = request.POST.get('email')
         phone_number = request.POST.get('phone_number')
         message = request.POST.get('message')
+        registrationOption = request.POST.get('registrationOption')
+        userType = request.POST.get('userType')
 
         contact_form = Contact_Form_Submission(
             name = name,
             email = email,
             phone_number = phone_number,
             message = message,
+            registrationOption = registrationOption,
+            userType = userType,
         )
        
         contact_form.save()

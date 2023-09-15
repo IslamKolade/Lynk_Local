@@ -18,4 +18,6 @@ class Contact_Form_Submission(models.Model):
     name = models.CharField(max_length=10000, null=True, blank=True)
     phone_number = models.CharField(max_length=10000, null=True, blank=True)
     email = models.CharField(max_length=10000, null=True, blank=True)
+    userType = models.CharField(max_length=10000, null=True, blank=True)
+    registrationOption = models.CharField(max_length=10000, null=True, blank=True)
     message = models.TextField()
