@@ -73,13 +73,13 @@ TEMPLATES = [
 WSGI_APPLICATION = "Lynk_Local.wsgi.application"
 
 # SMTP Configuration.
-DEFAULT_FROM_EMAIL = 'projectpeakacademia@gmail.com'
-SERVER_EMAIL = 'projectpeakacademia@gmail.com'
+DEFAULT_FROM_EMAIL = 'lynklocal@gmail.com'
+SERVER_EMAIL = 'lynklocal@gmail.com'
 # EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 # EMAIL_PORT = 587
-EMAIL_HOST_USER = 'projectpeakacademia@gmail.com'
-EMAIL_HOST_PASSWORD = 'thawwsrxtspjntfv'
+EMAIL_HOST_USER = 'lynklocal@gmail.com'
+EMAIL_HOST_PASSWORD = 'gtnowcxcgofxhoys'
 EMAIL_PORT = 465
 EMAIL_USE_SSL = True
 

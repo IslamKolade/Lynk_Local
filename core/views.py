@@ -42,7 +42,7 @@ def contact_form_submission(request):
         })
 
         # Send the email
-        msg = EmailMessage(email_subject, email_body, to=[email, 'projectpeakacademia@gmail.com'])
+        msg = EmailMessage(email_subject, email_body, to=[email, 'lynklocal@gmail.com'])
         msg.content_subtype = 'html'
         msg.send()
 
