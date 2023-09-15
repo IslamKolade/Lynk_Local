@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Form Submission Successful</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #61bf1a;
+    }
+    h2 {
+      color: #61bf1a;
+    }
+    p {
+      margin-bottom: 10px;
+    }
+    .cta-button {
+      display: inline-block;
+      background-color: #61bf1a;
+      color: #ffffff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Contact Form Submission Successful</h2>
+    <a href="https://www.lynklocal.com/static/img/banner.jpg"><img src="https://www.lynklocal.com/static/img/banner.png" width="100%" height="100%"></a>
+    <p>Dear {{name}},</p>
+    <p>We are pleased to inform you that your contact form submission has been successfully received. Thank you for reaching out to us.
+
+      Our team will review your message and respond promptly. In the meantime, if you have any additional questions or require immediate assistance, please feel free to contact us at {{lynk_local_phone_number}}.
+      
+      Thank you for choosing us, and we look forward to assisting you further.</p>
+    <p>Name: {{name}}</p>
+    <p>Email: {{email}}</p>
+    <p>Phone Number: {{phone_number}}</p>
+    <p>Message: {{message}}</p>
+    <p>We will review your request and get back to you shortly with further details.</p>
+    <p>If you have any questions or need immediate assistance, please feel free to <a href="tel:{{lynk_local.phone_number}}">contact us.</a></p>
+    
+    <p>Best Regards,</p>
+    <p>The Lynk Local Team</p>
+    <a href="https://www.lynklocal.com" class="cta-button">Visit Website</a>
+  </div>
+</body>
+</html>
