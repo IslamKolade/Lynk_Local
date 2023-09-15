@@ -2,7 +2,6 @@ from django.shortcuts import render, get_object_or_404
 from .models import LynkLocal, Contact_Form_Submission
 from django.core.mail import EmailMessage
 from django.template.loader import render_to_string
-from django.http import HttpResponseForbidden
 
 
 # Create your views here.
