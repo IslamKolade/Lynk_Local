@@ -21,3 +21,6 @@ class Contact_Form_Submission(models.Model):
     userType = models.CharField(max_length=10000, null=True, blank=True)
     registrationOption = models.CharField(max_length=10000, null=True, blank=True)
     message = models.TextField()
+
+    def __str__(self):
+        return self.userType
